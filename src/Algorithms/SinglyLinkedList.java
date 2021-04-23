@@ -136,7 +136,7 @@ public class SinglyLinkedList {
 		head = sll.addHead(head, 5);
 		System.out.println("Linked List sau khi them phan tu vao vi tri dau tien");
 		sll.Print(head);
-		sll.addTail(head, 9);
+		sll.addTail(head, 9);	
 		System.out.println("Linked List sau khi them tu vao vi tri cuoi cung");
 		sll.Print(head);
 		head = sll.addAt(head, 2, 7);
