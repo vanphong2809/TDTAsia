@@ -21,7 +21,6 @@ public class HashTable {
 		else
 			System.out.println("Khong tim thay");
 	}
-
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		String hashTable[] = new String[10000];
