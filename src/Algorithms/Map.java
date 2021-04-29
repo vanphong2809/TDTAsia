@@ -26,17 +26,18 @@ class Student {
 public class Map {
 
 	public static void main(String[] args) {
+		//Map<Key, Value>
 		HashMap<Integer, String> map1 = new HashMap<Integer, String>();
 		map1.put(100, "A");
 		map1.put(101, "B");
-		map1.put(102, "C");
+		map1.put(102, "C");   
 		Set<Integer> set = map1.keySet();
 		for (Integer key : set) {
 			System.out.println(key + " " + map1.get(key));
 		}
 		
 		
-		
+		//Map<key, List<Object>>
 		Student stu1 = new Student(1, "Nguyen Van Phong", "CNTT");
 		Student stu2 = new Student(2, "Nguyen Van Kha", "CNTT");
 		ArrayList<Student> listStudent = new ArrayList<Student>();
@@ -46,6 +47,7 @@ public class Map {
 		map2.put(1, listStudent);
 		System.out.println(map2);
 		
+		//Map<List<Key>,List<Object>>
 		ArrayList<Integer> list=new ArrayList<Integer>();
 		list.add(1);
 		list.add(2);
